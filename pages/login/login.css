@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+.loginpage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #F5F4F9;
+    
+
+}
+.esquerda{
+    background: #F5F4F9;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.direita{
+    width: 800px;
+    height: 618px;
+    display: flex;
+    border-radius: 29px 0 0 29px;
+    align-items: center;
+    justify-content: center;    
+    box-shadow: 5px 5px 1em #888;
+    background: white;
+    
+}
+.coracao{
+    width: 600px;
+    right: 600px;
+    justify-content: center;
+    display: flex;
+}
+.quadranteum{
+    width: 300px;
+    padding: 20px;
+}
+
+form input{
+    width: 300px;
+    height: 40px;
+    border-radius: 17px;
+    border: 2px solid #aaa8b6;
+
+}
+.label-email{
+    position: absolute;
+    color: #65646b;
+    bottom: 418px;
+    background: white;
+    left: 975px;
+}
+.label-senha{
+    position: absolute;
+    color: #65646b;
+    bottom: 350px;
+    background: white;
+    left: 975px;
+}
+.emocionagrupo{
+    width: 310px;
+    height: 55px;
+    align-items: center;
+
+
+}
+.entrar{
+    width: 300px;
+    height: 55px;
+    background: #00C247;
+    border-radius: 17px;
+    color: white;
+    border: 0px;    
+
+}
+.cadastrar{
+    width: 300px;
+    height: 55px;
+    background: #00C247;
+    border-radius: 17px;
+    color: white;
+    border: 0px;
+}
+.recuperar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.centralizar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ouentao{
+    justify-content: center;
+    text-align: center;
+    color: #616161;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.linhas{
+    width: 43px;
+    border-bottom: 1px solid #616161;
+    
+}
+
+
