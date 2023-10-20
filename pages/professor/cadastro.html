@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro Professor</title>
+    <link rel="stylesheet" href="../../pages/style/cadastro.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="../../js/professor.js" defer></script>
+    <script src="../../js/cadastro.js" defer></script>
+    <script src="../../js/menusidebar.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="emociona">
+            <img src="../../assets/images/emocionagrupo.svg" />
+        </div>
+        <div class="logouser">
+            <img src="../../assets/icones/user.svg" />
+            <span>Breno Viana</span>
+        </div>
+    </header>
+    <div class="borda">
+        <div class="primeira"></div>
+        <div class="segunda"></div>
+        <div class="terceira"></div>
+        <div class="quarta"></div>
+        <div class="quinta"></div>
+    </div>
+    <nav>
+        <div class="barra">
+            <div class="lateral">
+                <div class="configmenu"><a href="../bem_vindo/bemvindo.html"><span
+                            class="material-symbols-outlined">home</span>Início</a></div>
+                <div class="configmenu">
+                    <a class="fechado"><span class="material-symbols-outlined">
+                            person_add
+                        </span>Usuários<span class="material-symbols-outlined icone">
+                            chevron_right
+                        </span></a>
+                    <div class="configmenusub">
+                        <a href="../professor/professor.html" class="aberto">Professor</a>
+                        <a href="../aluno/aluno.html" class="aberto">Aluno</a>
+                    </div>
+                </div>
+                <div class="configmenu"><a href="../dash/dashemocionometro.html"><span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                        Emocionômetro</a></div>
+                <div class="perfilsair">
+                    <div class="configmenu"><a href=""><span class="material-symbols-outlined">
+                                person
+                            </span>
+                            Meu perfil</a></div>
+                    <div class="configmenu"><a href="../../pages/login/index.html"><span
+                                class="material-symbols-outlined">
+                                logout
+                            </span>
+                            Sair</a></div>
+                </div>
+    </nav>
+
+    <div class="frasecentro">
+        <div class="botaovoltar">
+            <a href="../professor/professor.html"><span class="material-symbols-outlined">
+                    arrow_back</span>
+            </a>
+            <h1 class="usaProf">Novo Usuário > Professor</h1>
+        </div>
+
+        <div class="retbranco">
+            <h4 class="dadosprof">Dados do Usuário</h4>
+            <form id="alinhaform">
+                <div class="alinha">
+                    <label class="">Nome</label>
+                    <input id="nome" class="editaInput" type="text" placeholder="Digite seu nome">
+                </div>
+                <div class="alinha">
+                    <label class="">Perfil</label>
+                    <select id="perfil" class="">
+                        <option value="Professor">Professor</option>
+                        <option value="Coordenador">Coordenador</option>
+                    </select>
+                </div>
+                <div class="alinha">
+                    <label class="">Disciplinas</label>
+                    <input id="disciplina" class="editaInput" type="text" placeholder="">
+                </div>
+                <div class="alinha">
+                    <label class="">Ativo</label>
+                    <input id="ativo" class="checkbox" type="checkbox">
+                </div>
+                <button class="salvar" type="submit"> Salvar </button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

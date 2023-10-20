@@ -1,0 +1,53 @@
+{
+  "professor": [
+    {
+      "nome": "Coordenador0000",
+      "disciplina": "Coodernador0000",
+      "perfil": "Professor",
+      "ativo": false,
+      "id": 20
+    },
+    {
+      "nome": "Coordenador0000",
+      "disciplina": "Coodernador0000",
+      "perfil": "Professor",
+      "ativo": true,
+      "id": 21
+    },
+    {
+      "nome": "testando novo",
+      "disciplina": "testando novo",
+      "perfil": "Professor",
+      "ativo": true,
+      "id": 22
+    },
+    {
+      "nome": "",
+      "disciplina": "",
+      "perfil": "Professor",
+      "ativo": false,
+      "id": 23
+    },
+    {
+      "nome": "",
+      "disciplina": "",
+      "perfil": "Coordenador",
+      "ativo": false,
+      "id": 24
+    }
+  ],
+  "aluno": [
+    {
+      "nome": "AlunoNovo",
+      "turma": "TurmaNova",
+      "ativo": false,
+      "id": 7
+    },
+    {
+      "nome": "Aluno08",
+      "turma": "Turma08",
+      "ativo": true,
+      "id": 8
+    }
+  ]
+}

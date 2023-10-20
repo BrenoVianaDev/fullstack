@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header{
+    height: 100px;
+    background:#ffffff;
+    justify-content:space-between;
+    display: flex;
+    padding-right: 35px;
+    text-align: center;
+    position: relative;
+    z-index:1;
+}
+
+.emociona{
+    padding: 20px;
+}
+
+.emociona img{
+    width: 280px;
+}
+
+.logouser{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.logouser span{
+    margin-left: 10px;
+}
+
+.borda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index:1;
+}
+
+.primeira{
+    width: 100%;
+    border-bottom: 5px solid #AA6F34;
+}
+
+.segunda{
+    width: 100%;
+    border-bottom: 5px solid #D2772E;    
+}
+
+.terceira{
+    width: 100%;
+    border-bottom: 5px solid #F48221;
+}
+
+.quarta{
+    width: 100%;
+    border-bottom: 5px solid #FAA61A;
+}
+
+.quinta{
+    width: 100%;
+    border-bottom: 5px solid #F9E423;
+}
+
+.barra{
+    background: #F9E423;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top:0;
+}
+
+.barra .lateral{
+    width: 100%;
+    margin-top: 120px;
+}
+
+.barra .lateral .configmenu{
+    position:relative;
+    cursor:pointer;
+}
+
+.barra .lateral .configmenu a{
+    color: #AA6F34;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 40px;
+    line-height: 60px;
+    border-left: 7px solid #F9E423;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+}
+
+.barra .lateral .configmenu a:hover{
+    background: #FAA61A;
+    border-left: 7px solid #F48221;
+    color: #ffffff;
+    font-size: 18px;    
+}
+
+.barra .lateral .configmenu span{
+    margin-right: 15px;
+    font-size: 34px;
+}
+
+.barra .lateral .configmenu a .icone{
+    position: absolute;
+    right:0;
+    margin: 20px;    
+}
+
+.barra .lateral .configmenu .configmenusub{
+    display:none;
+}
+
+.barra .lateral .configmenu .configmenusub a{
+    padding-left: 80px;
+}
+
+.barra .lateral .configmenu .configmenusub a:hover{
+    background: #F48221;   
+}
+
+.perfilsair{
+    width: 300px;
+    position: fixed;
+    bottom: 20px;
+}
+
+.frasecentro{
+    position: relative;
+    margin-left: 300px;
+    background-color: #F5F4F9;
+    height: 83vh;    
+}
+
+.topoemociona{    
+    align-items: center;
+    justify-content: space-between;
+    display: flex;    
+    margin-left: 15px;
+}
+
+.meioemociona{
+    display: flex;
+}
+
+.graficoemociona{
+    margin-left: 30px;
+    margin-right: 30px;
+    background: #ffffff;
+    height: 66vh;
+    width: 120vh;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.grafemo{
+    margin-left: 20px;
+    height: 90%;
+    margin-top: 15px;
+}
+
+.registroemociona{
+    margin-right: 30px;
+    background: #ffffff;    
+    height: 25vh;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.totReg{
+    padding: 15px;
+    margin: 0%;
+}
+
+.totReg156{
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.percentualemociona{
+    margin-right: 30px;
+    margin-top: 15px;
+    background: #ffffff;
+    height: 38vh;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.percentual{
+    width: 65%;
+    position: relative;
+    margin-left: 20px;
+}

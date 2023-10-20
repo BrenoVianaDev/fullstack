@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
+    overflow: hidden;
 
 }
 .loginpage {
@@ -70,6 +71,7 @@ form input{
 
 }
 .entrar{
+    cursor: pointer;
     width: 300px;
     height: 55px;
     background: #00C247;
@@ -79,6 +81,7 @@ form input{
 
 }
 .cadastrar{
+    cursor: pointer;
     width: 300px;
     height: 55px;
     background: #00C247;
@@ -99,7 +102,6 @@ form input{
 }
 .ouentao{
     justify-content: center;
-    text-align: center;
     color: #616161;
     display: flex;
     align-items: center;

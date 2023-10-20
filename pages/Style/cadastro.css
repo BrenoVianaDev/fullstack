@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header{
+    height: 100px;
+    background:#ffffff;
+    justify-content:space-between;
+    display: flex;
+    padding-right: 35px;
+    text-align: center;
+    position: relative;
+    z-index:1;
+}
+
+.emociona{
+    padding: 20px;
+}
+
+.emociona img{
+    width: 280px;
+}
+
+.logouser{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.logouser span{
+    margin-left: 10px;
+}
+
+.borda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index:1;
+}
+
+.primeira{
+    width: 100%;
+    border-bottom: 5px solid #AA6F34;
+}
+
+.segunda{
+    width: 100%;
+    border-bottom: 5px solid #D2772E;
+    ;
+}
+
+.terceira{
+    width: 100%;
+    border-bottom: 5px solid #F48221;
+}
+
+.quarta{
+    width: 100%;
+    border-bottom: 5px solid #FAA61A;
+}
+
+.quinta{
+    width: 100%;
+    border-bottom: 5px solid #F9E423;
+}
+
+.barra{
+    background: #F9E423;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top:0;    
+}
+
+.barra .lateral{
+    width: 100%;
+    margin-top: 120px;
+}
+
+.barra .lateral .configmenu{
+    position:relative;
+    cursor:pointer;
+}
+
+.barra .lateral .configmenu a{
+    color: #AA6F34;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 40px;
+    line-height: 60px;
+    border-left: 7px solid #F9E423;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+}
+
+.barra .lateral .configmenu a:hover{
+    background: #FAA61A;
+    border-left: 7px solid #F48221;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.barra .lateral .configmenu span{
+    margin-right: 15px;
+    font-size: 34px;
+}
+
+.barra .lateral .configmenu a .icone{
+    position: absolute;
+    right:0;
+    margin: 20px;    
+}
+
+.barra .lateral .configmenu .configmenusub{
+    display:none;
+}
+
+.barra .lateral .configmenu .configmenusub a{
+    padding-left: 80px;
+}
+
+.barra .lateral .configmenu .configmenusub a:hover{
+    background: #F48221;    
+}
+
+.perfilsair{
+    width: 300px;
+    position: fixed;
+    bottom: 20px;
+}
+
+.frasecentro{
+    position: relative;
+    margin-left: 300px;
+    background-color: #F5F4F9;    
+    height: 83vh;
+}
+
+.botaovoltar{
+    align-items: center;
+    display: flex;    
+    margin-left: 15px;
+}
+
+.botaovoltar span{
+    color: #616161;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EEEEEE;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+.botaovoltar a{
+    text-decoration: none;
+}
+
+.usaProf{    
+    margin: 0%;
+    padding: 20px;
+    background-color: #F5F4F9    
+} 
+
+.retbranco{
+    background: #ffffff;      
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 1em #888;
+    border-radius: 20px;    
+}
+
+#alinhaform{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: center;    
+}
+
+#alinhaform label{
+    display: block;
+    font-weight: bold;    
+}
+
+.dadosprof{    
+    padding: 20px;
+}
+
+.alinha{
+    margin-right: 80px;
+    display: block; 
+}
+
+.editaInput{
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #edebf6;
+}
+
+.alinha select{
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #edebf6;
+}
+.salvar{
+    cursor: pointer;
+    width: 210px;
+    height: 30px;
+    background: #00C247;
+    border-radius: 5px;
+    color: white;
+    border: 0px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 280px;
+}
