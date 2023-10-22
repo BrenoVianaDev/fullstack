@@ -18,7 +18,16 @@ const buscarAluno = async ()=>{
 const carregarDadosFormulario = async (aluno)=>{
     document.getElementById('nome').value=aluno.nome
     document.getElementById('turma').value=aluno.turma    
-    document.getElementById('ativo').checked ? true : false
+    const toggleEdicao = document.getElementById("toggle-edicao")
+    const ativo = aluno.ativo === true
+
+    if (ativo) {
+        toggleEdicao.checked = true
+        toggleEdicao.parentElement.classList.add(true)
+    } else {
+        toggleEdicao.checked = false
+        toggleEdicao.parentElement.classList.add(false)
+    }
 
 
 }

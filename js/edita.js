@@ -19,7 +19,16 @@ const carregarDadosFormulario = async (professor)=>{
     document.getElementById('nome').value=professor.nome
     document.getElementById('disciplina').value=professor.disciplina
     document.getElementById('perfil').value=professor.perfil
-    document.getElementById('ativo').checked ? true : false
+    const toggleEdicao = document.getElementById("toggle-edicao")
+    const ativo = professor.ativo === true
+
+    if (ativo) {
+        toggleEdicao.checked = true
+        toggleEdicao.parentElement.classList.add(true)
+    } else {
+        toggleEdicao.checked = false
+        toggleEdicao.parentElement.classList.add(false)
+    }
 
 
 }

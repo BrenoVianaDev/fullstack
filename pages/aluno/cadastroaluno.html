@@ -49,7 +49,8 @@
                         <a href="../aluno/aluno.html" class="aberto">Aluno</a>
                     </div>
                 </div>
-                <div class="configmenu"><a href="../dash/dashemocionometro.html"><span class="material-symbols-outlined">
+                <div class="configmenu"><a href="../dash/dashemocionometro.html"><span
+                            class="material-symbols-outlined">
                             favorite
                         </span>
                         Emocionômetro</a></div>
@@ -80,14 +81,17 @@
                 <div class="alinha">
                     <label class="">Nome</label>
                     <input id="nome" class="editaInput" type="text" placeholder="Digite seu nome">
-                </div>                
+                </div>
                 <div class="alinha">
                     <label class="">Turma</label>
                     <input id="turma" class="editaInput" type="text" placeholder="">
                 </div>
                 <div class="alinha">
-                    <label class="">Ativo</label>
-                    <input id="ativo" class="checkbox" type="checkbox">
+                    <label for="toggle">Ativo</label>
+                    <label class="toggle">
+                        <input type="checkbox" id="toggle-edicao" name="ativo">
+                        <span class="slider"></span>
+                    </label>
                 </div>
                 <button class="salvar" type="submit"> Salvar </button>
             </form>

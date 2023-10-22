@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet" />
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="../../js/edita.js" defer></script>
     <script src="../../js/menusidebar.js" defer></script>
 </head>
@@ -48,7 +48,8 @@
                         <a href="../aluno/aluno.html" class="aberto">Aluno</a>
                     </div>
                 </div>
-                <div class="configmenu"><a href="../dash/dashemocionometro.html"><span class="material-symbols-outlined">
+                <div class="configmenu"><a href="../dash/dashemocionometro.html"><span
+                            class="material-symbols-outlined">
                             favorite
                         </span>
                         Emocionômetro</a></div>
@@ -92,8 +93,11 @@
                     <input id="disciplina" class="editaInput" type="text" placeholder="Digite a disciplina">
                 </div>
                 <div class="alinha">
-                    <label class="">Ativo</label>
-                    <input id="ativo" class="checkbox" type="checkbox">
+                    <label for="toggle">Ativo</label>
+                    <label class="toggle">
+                        <input type="checkbox" id="toggle-edicao" name="ativo">
+                        <span class="slider"></span>
+                    </label>
                 </div>
                 <button class="salvar" type="submit"> Salvar </button>
             </form>
