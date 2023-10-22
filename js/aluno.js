@@ -1,5 +1,5 @@
 const getAluno = async ()=>{
-    const apiURL = await fetch('http://localhost:3000/aluno')
+    const apiURL = await fetch('https://projetoemocionometro.onrender.com/aluno')
     const infoAluno=await apiURL.json()
      exibeAluno(infoAluno)
 }

@@ -1,4 +1,4 @@
 const excluirAluno = async(id)=>{
-    await fetch(`http://localhost:3000/aluno/${id}`,{method:'DELETE'})
+    await fetch(`https://projetoemocionometro.onrender.com/aluno/${id}`,{method:'DELETE'})
     getAluno()
 }

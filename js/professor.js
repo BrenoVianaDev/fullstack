@@ -1,5 +1,5 @@
 const getProfessor = async ()=>{
-    const apiURL = await fetch('http://localhost:3000/professor')
+    const apiURL = await fetch('https://projetoemocionometro.onrender.com/professor')
     const infoProfessor=await apiURL.json()
      exibeProfessor(infoProfessor)
 }

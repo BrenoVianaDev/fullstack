@@ -1,7 +1,7 @@
 const formulario=document.getElementById('alinhaform')
 
 const cadastrarProfessor = async (professor)=>{
-    await fetch('http://localhost:3000/professor',{
+    await fetch('https://projetoemocionometro.onrender.com/professor',{
       method:'POST',  
       headers:{
         'Accept': 'application/json, text/plain, */*',
